@@ -6,7 +6,7 @@ for (i = 0; i < 12; i++){
     var inueva = 7 * i
 }
 
-//Muestra la tabla que le insertes mediane node
+//Muestra la tabla que le insertes mediane node (ejercicio adicional)
 //
 // var numer = process.argv[2];
 // for (i = 0; i < 12; i++){
