@@ -33,3 +33,9 @@ let gente = [{
         edad: 10
     },
 ]
+for(item of gente){
+    if (item.edad > 25){
+        console.log(item.nombre);
+    }
+    
+}
