@@ -33,3 +33,8 @@ let gente = [{
         edad: 10
     },
 ]
+for(item of gente){
+    if (item.nombre[0] === 'J'){
+        console.log(item.nombre);
+    }
+}
