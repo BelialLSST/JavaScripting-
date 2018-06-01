@@ -38,3 +38,4 @@ for(item of gente){
         console.log(item.nombre);
     }
 }
+
