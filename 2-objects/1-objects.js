@@ -5,7 +5,9 @@
 
 
 // Aquí tu código
-
+let ordenador = {
+    marca:'La pava'
+}
 
 
 // Hasta aquí
