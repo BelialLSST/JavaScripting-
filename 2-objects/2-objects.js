@@ -5,7 +5,14 @@
 
 
 // Aquí tu código
-
+let obj = {
+    a:{
+        b:Boolean(true),
+        c:['',3]
+    },
+    d:7,
+    f:'Code'
+}
 // Hasta aquí
 
 // TEST 1
@@ -47,7 +54,7 @@ if (typeof obj.f === 'string') {
 } else {
     console.log('suspendes');
 }
-// TEST 6
+// TEST 7
 if ( obj.f.length === 4) {
     console.log('apruebas');
 } else {
