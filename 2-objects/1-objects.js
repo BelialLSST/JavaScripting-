@@ -6,7 +6,18 @@
 
 // Aquí tu código
 let ordenador = {
-    marca:'La pava'
+    marca:'La pava',
+    tipo: 'portátil',
+    perifericos:['','touchPad'],
+    //5º
+    almacenamiento:{
+        maestro: 0,
+        discos: {
+            ordenador: {
+                almacenamiento:{maestro: 'SSD'}    
+            }
+        }
+    }
 }
 
 
