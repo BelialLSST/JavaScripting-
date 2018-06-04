@@ -34,4 +34,7 @@ let gente = [{
         edad: 10
     },
 ]
+let nombrescortos = gente.filter(gente => gente.nombre[0] === 'J' && gente.edad < 40);
 
+console.log(nombrescortos);
+ 
