@@ -12,3 +12,10 @@ let matriz = [
     [],
     []
 ]
+for (let filas = 0; filas < matriz.length; filas++){
+    for(let colum = 0; colum < 3; colum++)
+        matriz[filas][colum] = '' + filas + colum;
+    
+    
+}
+console.log(matriz);
