@@ -20,6 +20,7 @@ let total=0;
 for (numero of arr){
     total+=numero;
 }
+
 // Hasta aquí
 console.log('El total nuevo es: ', total);
 
