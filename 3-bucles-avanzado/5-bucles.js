@@ -15,8 +15,8 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
     arr[i] = giveMeIntegerRandom(4)
 }
 console.log('El array original es:  arr =', arr);
-let total=0;
 // Aquí tu código
+let total=0;
 for (numero of arr){
     total+=numero;
 }
