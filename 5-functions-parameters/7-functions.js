@@ -7,7 +7,10 @@
 //  convierteEurosEnPesetas(1) === 168 // true
 
 // Aquí tu código
-
+let convierteEurosEnPesetas = (moneda)=>{
+    
+    return  moneda * 168
+}
 
 // Hasta aquí
 
@@ -27,6 +30,7 @@ if ( convierteEurosEnPesetas(2) === 336) {
 }
 // TEST 3
 let rnd = Math.random() * 10;
+
 if (convierteEurosEnPesetas(rnd) === rnd * 168) {
     console.log('apruebas');
 } else {
