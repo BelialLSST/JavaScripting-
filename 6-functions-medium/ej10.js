@@ -13,9 +13,10 @@
 // Ha de pasar los test adjuntados.
 
 // Aquí tu código.  Desde aquí:
-const conCuantosParametrosMeHanEjecutado;
+let conCuantosParametrosMeHanEjecutado = (...rest)=>{
+    return rest.length
+}
 // Hasta aquí.
-
 
 let test = require('../test.js');
 
